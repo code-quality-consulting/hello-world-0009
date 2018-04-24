@@ -1,11 +1,8 @@
 const assert = require("assert");
-
+const makeGreeting = require("./index.js");
 // assert.equal
 // Tests shallow, coercive equality between the actual and expected parameters using the Abstract Equality Comparison ( == ).
 
-function makeGreeting(name = "world") {
-        return "Hello " + name + "!";
-}
 
 assert.equal(makeGreeting(), "Hello world!");
 assert.equal(makeGreeting("Zach"), "Hello Zach!");
