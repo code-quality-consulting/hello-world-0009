@@ -8,6 +8,7 @@ function makeGreeting() {
 }
 
 assert.equal(makeGreeting(), "Hello world!");
+assert.equal(makeGreeting(), "Hello Zach!");
 console.log("Your test has passed!");
 /*
     1) Make a failing test
