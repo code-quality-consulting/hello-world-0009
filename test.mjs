@@ -4,7 +4,7 @@ import {makeGreeting, makeGreeter} from "./index";
 const makeEnglishGreeting = makeGreeter("English");
 
 assert.equal(makeEnglishGreeting(), "Hello world!");
-assert.equal(makeGreeting("Zach"), "Hello Zach!");
+assert.equal(makeEnglishGreeting("Zach"), "Hello Zach!");
 assert.equal(makeGreeting("", "Spanish"), "¡Hola mundo!");
 assert.equal(makeGreeting("Alejandro", "Spanish"), "¡Hola Alejandro!");
 console.log("Your test has passed!");
