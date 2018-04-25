@@ -9,5 +9,5 @@ console.log("Your test has passed!");
 /*
     1) Make a failing test
     2) Make it pass
-    3) Make it pass better (refactor)    
+    3) Make it pass better (refactor)
 */

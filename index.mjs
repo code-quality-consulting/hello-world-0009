@@ -1,6 +1,10 @@
-export function makeGreeting(name = "world", language) {
+export function makeGreeting(name = "world", language = "English") {
     if (language === "Spanish") {
-        return "¡Hola mundo!";
+        if (name === "") {
+            const world = "mundo";
+            return "¡Hola " + world + "!";
+        }
+        return "¡Hola " + name + "!";
     }
     return "Hello " + name + "!";
 }
